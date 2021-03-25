@@ -13,7 +13,7 @@ app.get('/jm-list/:myAddress', async function(req,res){
     var contractAddress ="0x865e82A27A36CFf99A2e99EA36d7adA51ca9a1d3";
     var coinbase = "0x633C24904b6361B7eB6efe181722FD4c85160D7A";
 
-    var myContract =  new web3js.eth.Contract(contractABI,contractAddress, { // not web3js.eth.Contract
+    var myContract =  new web3js.eth.Contract(contractABI,contractAddress, { 
         from: coinbase ,
         gasPrice: '15000000' // 以 wei 为单位的默认 gas 价格，当前价格为 20 gwei;
     });

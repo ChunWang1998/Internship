@@ -90,7 +90,7 @@ web3 = new Web3(App.web3Provider);
     event.preventDefault();
 
     var petId = parseInt($(event.target).data('id'));
-
+console.log(petId);
     var adoptionInstance;
 
     web3.eth.getAccounts(function(error, accounts) {
