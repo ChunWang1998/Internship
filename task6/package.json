@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "truffle-flattener": "^1.5.0"
+  },
+  "dependencies": {
+    "truffle": "^5.3.1"
+  }
+}
